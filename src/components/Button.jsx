@@ -7,8 +7,6 @@ import { appendToFormula, clear, compute } from "../store/actions";
 
 const StyledButton = styled.button`
   border: 1px solid rgba(255, 255, 255, 0.034);
-  /* border-width: thin; */
-  /* border: none; */
   background-color: ${({ theme, type }) => {
     if (type === "primary") return theme.colors.orange;
     else if (type === "danger") return theme.colors.red;
@@ -17,7 +15,7 @@ const StyledButton = styled.button`
   }};
   color: ${({ theme }) => theme.colors.white};
   padding: 20px;
-  font-size: 1.6rem;
+  font-size: 2rem;
 
   :hover {
     background-color: ${({ theme, type }) => {

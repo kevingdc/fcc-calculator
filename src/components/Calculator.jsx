@@ -7,7 +7,7 @@ const StyledDiv = styled.div`
   border: ${({ theme }) => `1px solid ${theme.colors.white}`};
   max-width: 90%;
   min-width: 20%;
-  min-height: 50%;
+  min-height: 30%;
   max-height: 80%;
   background-color: ${({ theme }) => theme.colors.black};
   display: flex;
